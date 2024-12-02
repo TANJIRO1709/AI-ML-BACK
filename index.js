@@ -11,7 +11,7 @@ app.use(corsConfig)
 app.use(jsonParser)
 app.get("/", (req, res) => {
     res.send({
-        message: "Project Bluebell Server",
+        message: "Project AI-ML Server",
         health: "ok",
     });
 });
